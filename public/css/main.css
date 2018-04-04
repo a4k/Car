@@ -1,0 +1,44 @@
+.classA { fill: #7C7E8F } .classB {fill: #F2C94C} .classW {fill: #FFFFFF}
+
+.car_details {
+	width: 250px;
+	height: 360px;
+	overflow: auto;
+	position: relative;
+}
+
+.zoom, .nezoom {
+    border-radius: 50%;
+    background: #fff;
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    border: 1px solid #808080;
+    cursor: pointer;
+}
+
+.detail {
+	font-size: 18px;
+	font-family: Arial;
+	line-height: 30px;
+	width: 300px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.detail .deleteBtn {
+	background: url(../img/delete.png) no-repeat center;
+	background-size: 12px auto;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	opacity: 0.8;
+	font-size: 0;
+}
+.detail .deleteBtn:hover {
+	opacity: 1;
+}
